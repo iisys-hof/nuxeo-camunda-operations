@@ -1,0 +1,12 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Name: nuxeo-camunda-operations
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Nuxeo
+Bundle-Version: 1.0.qualifier
+Bundle-ManifestVersion: 2
+Nuxeo-Component: OSGI-INF/extensions/de.hofuniversity.iisys.nuxeo.camunda.operations.xml
+Export-Package: de.hofuniversity.iisys.nuxeo.camunda.operations
+Bundle-SymbolicName: nuxeo-camunda-operations;singleton:=true
+Bundle-ActivationPolicy: lazy

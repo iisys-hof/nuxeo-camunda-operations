@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<component name="de.hofuniversity.iisys.nuxeo.camunda.operations" version="1.0">
+
+	<extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent" point="operations">
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.StartWorkflowOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.DeleteWorkflowOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.SuspendWorkflowOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.ActivateWorkflowOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.CompleteTaskOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.DeliverMessageOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.SetAssigneeOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.ReadTasksOperation" />
+    	<operation class="de.hofuniversity.iisys.nuxeo.camunda.operations.RefreshWorkflowsOperation" />
+  	</extension>
+
+</component>
